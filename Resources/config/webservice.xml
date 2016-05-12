@@ -96,6 +96,30 @@
                 <argument>dateTime</argument>
                 <argument>xsd:dateTime</argument>
             </call>
+            <call method="addType">
+                <argument>string*</argument>
+                <argument>xsd:string</argument>
+            </call>
+            <call method="addType">
+                <argument>boolean*</argument>
+                <argument>xsd:boolean</argument>
+            </call>
+            <call method="addType">
+                <argument>int*</argument>
+                <argument>xsd:int</argument>
+            </call>
+            <call method="addType">
+                <argument>float*</argument>
+                <argument>xsd:float</argument>
+            </call>
+            <call method="addType">
+                <argument>date*</argument>
+                <argument>xsd:date</argument>
+            </call>
+            <call method="addType">
+                <argument>dateTime*</argument>
+                <argument>xsd:dateTime</argument>
+            </call>
         </service>
     </services>
 
